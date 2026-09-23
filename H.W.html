@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="H.w.css">
+        <title> Login Page</title>
+        <style >
+         
+            body{
+                
+               background: url('12.jpg');
+               background-size: cover;
+                 border-style:solid;border:10px;
+                font-family: 'Times New Roman';text-align: center;margin-top:200px;font-size:30px;
+            }
+                input{
+                  
+                    display:inline;
+                    margin:5x auto;
+                    padding:5x;
+                    font-size:30px;font-family: 'Times New Roman';text-align: center;
+                 
+
+                }
+                button{
+                    padding:10px 30px;
+                    cursor: pointer;
+                    font-size:30px;font-family: 'Times New Roman';text-align: center;
+                    background-color: black;
+                    color: white;
+                    
+                }
+              
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div id="input": style="width: 550px;height: 300px;border:solid;margin-left: 350px;padding: 25px;background-image: url(15.jpg);color: white;background-size: cover;">
+        <form>
+            <p> Login Page</p>
+             UserName: <input type="Text" name="Username" id="Username" "><br> <br>
+             Password: <input type="Text" name="Password" id="Password"><br><br>
+             <button onclick="Login();"> Login</button>
+             
+
+
+        </form>
+        </div>
+        <Script>
+            function Login(){
+                var Username=document.getElementById('Username').value;
+                var Password=document.getElementById('Password').value;
+                if(Username=="" && Password==""){
+                    window.alert("Type the Username and Password");
+                }else if(Username==""){
+                    window.alert("Type the Username");
+                }else if(Password==""){
+                    window.alert("Type the Password");
+              
+
+                }else if(Username=="Ali" && Password=="2026"){
+                  window.alert("Welcome");
+               window.location. href="pro\ab.html";
+                }
+                else if (!Username=="Ali" && !Password=="2026");
+                window.alert("Incorrect Username And Password");
+            }
+
+
+            
+            
+            
+        </Script>
+
+
+    </body>
+</html>

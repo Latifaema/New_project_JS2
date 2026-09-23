@@ -1,0 +1,85 @@
+body{
+    margin:0;
+    padding:0;
+    background: url('123.jpg');
+    background-size: cover;
+}
+ul{
+    list-style-type:none;
+    background-color: lightblue;
+    color:black
+
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+    
+    
+}
+ul li:hover{
+   
+    background-color: white;
+    color:black
+    
+}
+.dropdown{
+    display: none;}
+ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    margin-left: -0.29cm;
+    margin-top:0.27 cm;
+  
+}
+.dropdown ul{
+    margin: 0;
+    padding: 0;
+}
+.dropdown ul li{
+    display: block;
+    
+}
+.dropdown1{display: none;}
+.dropdown ul li:hover .dropdown1{
+       display: block;
+    position: absolute;
+    margin-left:1.90cm;
+    margin-top:-0.5cm;
+      border-radius: 25px,0px;
+  
+}
+.dropdown2{display: none;}
+.dropdown ul li:hover .dropdown2{
+    display: block;
+    position: absolute;
+    margin-left:1.90cm;
+    margin-top:-0.75cm;
+}
+.dropdown3{display: none;}
+.dropdown ul li:hover.dropdown3{
+    display: block;
+    position: absolute;
+    margin-left: 1.90cm;
+    margin-top: -1,90cm;
+}
+.info{
+    margin: 0;
+    padding: 0;
+}
+.info{ display: none;}
+ul li:hover .info{
+     display: block;
+    position: absolute;
+    margin-left: -0.29cm;
+    margin: top 0.27cm;
+
+}
+.info ul{
+    margin: 0;
+    padding: 0;
+}
+.info ul li{
+    display: block;
+}
+
+
